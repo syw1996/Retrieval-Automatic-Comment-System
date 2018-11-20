@@ -1,0 +1,5 @@
+torch==0.4.1
+
+nltk
+numpy
+elasticsearch
