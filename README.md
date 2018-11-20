@@ -9,6 +9,10 @@
 - numpy
 - nltk
 
+## Data
+Download the training data from Baidu SkyDrive：
+- [training date](https://pan.baidu.com/s/1_1Z0jAAHBssAHec95kWavw)
+
 ## Quickstart
 ### Step 1: Preprocess the data
 python preprocess.py
