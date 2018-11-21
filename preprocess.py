@@ -147,8 +147,6 @@ def process_data(data_path, threshold):
     train_file_path = data_path + 'train.txt'
     dev_file_path = data_path + 'dev.txt'
     test_file_path = data_path + 'test.txt'
-    # test_a_file_path = data_path + 'ai_challenger_oqmrc_testa_20180816/ai_challenger_oqmrc_testa.json'
-    # test_b_file_path = data_path + 'ai_challenger_oqmrc_testb_20180816/ai_challenger_oqmrc_testb.json'
     path_lst = [train_file_path, dev_file_path, test_file_path]
     output_path = [data_path + x for x in ['train.pickle', 'dev.pickle', 'test.pickle']]
     return _process_data(path_lst, threshold, output_path)
