@@ -43,7 +43,7 @@ vocab_size = 50002
 with open(args.data + 'train.pickle', 'rb') as f:
     train_data = cPickle.load(f)
 
-with open(args.data + 'test.pickle', 'rb') as f:
+with open(args.data + 'dev.pickle', 'rb') as f:
     dev_data = cPickle.load(f)
 # dev_data = sorted(dev_data, key=lambda x: len(x[1]))
 
